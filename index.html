@@ -1,38 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">     <!-- 老师，我用VScode写的，和上课那个软件生成的模板不一样 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>个人简历</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-image:url('3.jpg');">
-<h1 align="center">个人简历</h1>
-<hr>
-<div>
-<h2 style="color:brown ">基本信息</h2>
-<h3>我的名字叫<sqan style="color:blueviolet">李昭政</sqan>，我是一名<a href="https://www.xjnu.edu.cn/" target="_blank">新疆师范大学</a>的计算机科学与技术学院的学生。</h3>
-<img src="2.jpg" width="960" height="385">
-</div>
-<div>
-<h2 style="color:brown ">我的兴趣爱好</h2>
-<h3>我平时闲着的时候就爱做手工，千纸鹤、纸星星、小盒子之类的。桌上放着自己折的小摆件，看着心情就挺好。有时候会做一些小手工送给他们，虽然不值钱，但大家也都很乐意接受。我觉得手工这东西，重要的不是多精致，而是做的时候那份专注和心意。</h3>
-</div>
-<div>
-<h2 style="color:brown ">我的家乡</h2>
-<h3><a href="https://baike.baidu.com/item/%E5%95%86%E4%B8%98%E5%B8%82/566392" target="_blank">河南省商丘市</a>，我的家乡，位于河南东部，是国家级历史文化名城。这里是商朝最早的建都地、商人商业的发源，被誉为“三商之源”。漫步归德府古城，脚下是沉甸甸的历史；这里不仅出了“火祖”燧人氏，还有着应天书院的书香余韵。它虽是一座小城，却坐拥五千年的文明底色，如今正以开放的姿态，在豫东平原上焕发着新的生机。</h3>
-<img src="1.jpg" width="960" height="500">
-</div>
-<div>
-<h2 style="color:brown">生活理念</h2>
-<h3>我相信，人生不是单一的轨道，而是宽广的旷野。保持终身学习的态度，对外界永远好奇，对自己永远真诚。我期待在这里链接更多有趣的灵魂，交流思想，分享见解，共同探索这个多元而精彩的世界。</h3>
-</div>
-<div>
-<h2 style="color:brown">想说的话</h2>
-<h3>进入<a href="grad.html">网页2</a>查看</h3>
-</div>
-<div>
-<h2 style="color:brown">未来展望</h2>
-<h3>现在的我，正处于一边憧憬未来一边迷茫当下的阶段。我不奢望一夜之间成为很厉害的大人，只希望一步一个脚印，把眼下该做的事情做好——认真啃完每一本书，真诚对待每一个人。期待在这里认识更多同龄的小伙伴，分享彼此的喜怒哀乐，一起在这个兵荒马乱的青春里，闪闪发光。</h3>
-</div>
+<body class="page-home">
+    <main class="page-shell">
+        <header class="hero-card">
+            <p class="hero-card__eyebrow">纸本花圃 · 个人主页</p>
+            <h1>个人简历</h1>
+            <p class="hero-card__lead">
+                想把这个页面做成一页慢慢翻开的校园剪贴簿：有手工的温度，有故乡的气息，也有对未来的认真期待。
+            </p>
+        </header>
+
+        <section class="panel panel--feature">
+            <div class="panel__content">
+                <h2>基本信息</h2>
+                <p>
+                    我的名字叫<span class="accent-text">李昭政</span>，我是一名
+                    <a href="https://www.xjnu.edu.cn/" target="_blank" rel="noreferrer">新疆师范大学</a>
+                    计算机科学与技术学院的学生。
+                </p>
+            </div>
+            <figure class="photo-card photo-card--wide">
+                <img src="2.jpg" alt="校园风景照片">
+            </figure>
+        </section>
+
+        <div class="panel-grid">
+            <section class="panel">
+                <h2>我的兴趣爱好</h2>
+                <p>
+                    我平时闲着的时候就爱做手工，千纸鹤、纸星星、小盒子之类的。桌上放着自己折的小摆件，看着心情就挺好。有时候会做一些小手工送给他们，虽然不值钱，但大家也都很乐意接受。我觉得手工这东西，重要的不是多精致，而是做的时候那份专注和心意。
+                </p>
+            </section>
+
+            <section class="panel">
+                <h2>生活理念</h2>
+                <p>
+                    我相信，人生不是单一的轨道，而是宽广的旷野。保持终身学习的态度，对外界永远好奇，对自己永远真诚。我期待在这里链接更多有趣的灵魂，交流思想，分享见解，共同探索这个多元而精彩的世界。
+                </p>
+            </section>
+
+            <section class="panel panel--photo">
+                <div class="panel__content">
+                    <h2>我的家乡</h2>
+                    <p>
+                        <a href="https://baike.baidu.com/item/%E5%95%86%E4%B8%98%E5%B8%82/566392" target="_blank" rel="noreferrer">河南省商丘市</a>，我的家乡，位于河南东部，是国家级历史文化名城。这里是商朝最早的建都地、商人商业的发源，被誉为“三商之源”。漫步归德府古城，脚下是沉甸甸的历史；这里不仅出了“火祖”燧人氏，还有着应天书院的书香余韵。它虽是一座小城，却坐拥五千年的文明底色，如今正以开放的姿态，在豫东平原上焕发着新的生机。
+                    </p>
+                </div>
+                <figure class="photo-card">
+                    <img src="1.jpg" alt="家乡风景照片">
+                </figure>
+            </section>
+
+            <section class="panel panel--cta">
+                <h2>想说的话</h2>
+                <p>如果愿意继续往后翻，就去看看第二页留下的一段真心话。</p>
+                <a class="button-link" href="grad.html">进入网页 2</a>
+            </section>
+
+            <section class="panel panel--full">
+                <h2>未来展望</h2>
+                <p>
+                    现在的我，正处于一边憧憬未来一边迷茫当下的阶段。我不奢望一夜之间成为很厉害的大人，只希望一步一个脚印，把眼下该做的事情做好——认真啃完每一本书，真诚对待每一个人。期待在这里认识更多同龄的小伙伴，分享彼此的喜怒哀乐，一起在这个兵荒马乱的青春里，闪闪发光。
+                </p>
+            </section>
+        </div>
+    </main>
 </body>
 </html>
